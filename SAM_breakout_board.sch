@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:SAM_breakout_board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1369,4 +1370,82 @@ F 3 "" H 2950 4500 50  0001 C CNN
 	1    2950 4500
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5DA1EEE1
+P 700 1000
+F 0 "J?" H 650 700 50  0000 C CNN
+F 1 "Conn_01x04" H 600 1300 50  0000 C CNN
+F 2 "" H 700 1000 50  0001 C CNN
+F 3 "~" H 700 1000 50  0001 C CNN
+	1    700  1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5DA221CE
+P 1050 1000
+F 0 "J?" H 1000 700 50  0000 C CNN
+F 1 "Conn_01x04" H 1000 1200 50  0000 C CNN
+F 2 "" H 1050 1000 50  0001 C CNN
+F 3 "~" H 1050 1000 50  0001 C CNN
+	1    1050 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5DA32A1B
+P 1400 1000
+F 0 "J?" H 1350 700 50  0000 C CNN
+F 1 "Conn_01x04" H 1400 1300 50  0000 C CNN
+F 2 "" H 1400 1000 50  0001 C CNN
+F 3 "~" H 1400 1000 50  0001 C CNN
+	1    1400 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5DA32FB7
+P 1750 1000
+F 0 "J?" H 1700 700 50  0000 C CNN
+F 1 "Conn_01x04" H 1750 1200 50  0000 C CNN
+F 2 "" H 1750 1000 50  0001 C CNN
+F 3 "~" H 1750 1000 50  0001 C CNN
+	1    1750 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  1100 900  1000
+Connection ~ 900  900 
+Wire Wire Line
+	900  900  900  800 
+Connection ~ 900  1000
+Wire Wire Line
+	900  1000 900  900 
+Wire Wire Line
+	1250 1100 1250 1000
+Connection ~ 1250 900 
+Wire Wire Line
+	1250 900  1250 800 
+Connection ~ 1250 1000
+Wire Wire Line
+	1250 1000 1250 900 
+Wire Wire Line
+	1600 1100 1600 1000
+Connection ~ 1600 900 
+Wire Wire Line
+	1600 900  1600 800 
+Connection ~ 1600 1000
+Wire Wire Line
+	1600 1000 1600 900 
+Wire Wire Line
+	1950 1100 1950 1000
+Connection ~ 1950 900 
+Wire Wire Line
+	1950 900  1950 800 
+Connection ~ 1950 1000
+Wire Wire Line
+	1950 1000 1950 900 
+Text Notes 1500 650  2    50   ~ 0
+AUX_RAILS
 $EndSCHEMATC
