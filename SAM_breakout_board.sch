@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:SAM_breakout_board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -520,15 +521,13 @@ Wire Wire Line
 	1600 6600 1450 6600
 Wire Wire Line
 	1600 6500 1450 6500
-Text Notes 1750 6100 0    50   ~ 0
-Power Supply\n
 $Comp
 L Connector:Conn_ARM_JTAG_SWD_10 J5
 U 1 1 5DA0CCC4
 P 1350 2100
 F 0 "J5" V 907 2146 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" V 800 2550 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 1350 2100 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 1350 2100 50  0001 C CNN
 F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 1000 850 50  0001 C CNN
 	1    1350 2100
 	0    1    1    0   
@@ -1031,7 +1030,7 @@ U 1 1 5DA63FA5
 P 2200 4500
 F 0 "J8" H 2150 4600 50  0000 L CNN
 F 1 "Conn_01x02" V 2350 4250 50  0000 L CNN
-F 2 "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal" H 2200 4500 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 2200 4500 50  0001 C CNN
 F 3 "~" H 2200 4500 50  0001 C CNN
 	1    2200 4500
 	0    -1   -1   0   
@@ -1101,7 +1100,7 @@ U 1 1 5DFD1302
 P 8400 1150
 F 0 "Y1" H 8350 750 50  0000 L CNN
 F 1 "Crystal_ABS" H 8200 850 50  0000 L CNN
-F 2 "kicad-open-modules-master:SOJ-4" H 8400 1150 50  0001 C CNN
+F 2 "footprints:SOJ-4" H 8400 1150 50  0001 C CNN
 F 3 "~" H 8400 1150 50  0001 C CNN
 	1    8400 1150
 	-1   0    0    1   
