@@ -1,0 +1,67 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+JST_S2B-ZR-SM4A-TF(LF)(SN)
+$EndINDEX
+$MODULE JST_S2B-ZR-SM4A-TF(LF)(SN)
+Po 0 0 0 15 00000000 00000000 ~~
+Li JST_S2B-ZR-SM4A-TF(LF)(SN)
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -0.85 -5.325 1 1 0 0.05 N V 21 "JST_S2B-ZR-SM4A-TF(LF)(SN)"
+T1 -0.115 4.635 1 1 0 0.05 N V 21 "VAL**"
+DS -3 -2.6 3 -2.6 0.127 27
+DS 3 -2.6 3 3.4 0.127 27
+DS 3 3.4 -3 3.4 0.127 27
+DS -3 3.4 -3 -2.6 0.127 27
+DS -1.45 -2.6 -3 -2.6 0.127 21
+DS -3 -2.6 -3 0.1 0.127 21
+DS -3 2.8 -3 3.4 0.127 21
+DS -3 3.4 3 3.4 0.127 21
+DS 3 3.4 3 2.8 0.127 21
+DS 1.45 -2.6 3 -2.6 0.127 21
+DS 3 -2.6 3 0.1 0.127 21
+DC -0.8 -4.05 -0.7 -4.05 0.3 21
+DC -0.8 -4.05 -0.7 -4.05 0.3 27
+DS -3.5 -3.65 3.5 -3.65 0.05 26
+DS 3.5 -3.65 3.5 3.65 0.05 26
+DS 3.5 3.65 -3.5 3.65 0.05 26
+DS -3.5 3.65 -3.5 -3.65 0.05 26
+$PAD
+Sh "S2" R 1.1 1.9 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.7 1.45
+$EndPAD
+$PAD
+Sh "S1" R 1.1 1.9 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.7 1.45
+$EndPAD
+$PAD
+Sh "2" R 0.7 2.5 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.75 -2.15
+$EndPAD
+$PAD
+Sh "1" R 0.7 2.5 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.75 -2.15
+$EndPAD
+$EndMODULE JST_S2B-ZR-SM4A-TF(LF)(SN)
